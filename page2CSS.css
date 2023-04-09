@@ -1,9 +1,9 @@
 body {
-	background-color: darkseagreen;
+	
 	padding: 0px;
 	border-collapse: collapse;
 	margin: 0;
-	background-image: url("GreenBG3.gif");
+	background-image: "GreenBG3.gif";
 	background-repeat: repeat;
 }
 
