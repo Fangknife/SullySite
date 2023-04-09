@@ -3,7 +3,7 @@ body {
 	padding: 0px;
 	border-collapse: collapse;
 	margin: 0;
-	background-image: GreenBG3.gif;
+	background-image: url("greenBG3.gif");
 	background-repeat: repeat;
 }
 
