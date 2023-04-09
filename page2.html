@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fangknife.com</title>
+    <link rel="stylesheet" href="page2CSS.css">
+    <link rel="icon" type="image/x-icon" href="favicon_2.ico.png">
+<style>
+
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+    <div class="d1"
+         id="d1">
+
+        <img src="p1.gif" alt="uh_oh1"
+             class="center"
+             style="
+              z-index: 2;
+             position: relative;
+             width: 95%;
+             " />
+
+        <img src="p2f.png" alt="uh_oh2"
+             class="center"
+             style="
+              z-index: 3;
+             position: relative;
+             top: -5%;
+             width: 50%;
+             " />
+
+
+        <img src="p3b.png" alt="uh_oh3"
+             class="center"
+             style="
+              z-index: 4;
+             top: -20px;
+             position: relative;
+             width: 95%;
+             " />
+
+        <img src="p6.png" alt="uh_oh6"
+             class="center"
+             style="
+              z-index: 5;
+             top: -13%;
+             position: relative;
+             width: 70%;
+             " />
+
+        <img src="p7d.gif" alt="uh_oh7"
+             class="center"
+             style="
+             bottom: 27%;
+             left:-0px;
+             position: relative;
+             width: 100%;
+             " />
+
+        <img src="p8.gif" alt="uh_oh7"
+             style="
+             bottom: -15px;
+             right: -15px;
+             position: absolute;
+             width: 28%;
+             " />
+
+
+    </div>
+
+    <div class="galFrame">
+
+        <div class="gal"
+             id="gal">
+
+
+            <img id="cubeImg" src="cube.gif" alt="uh_ohCube"
+                 class="center2"
+                 style="
+             max-width: 100%;
+             max-height: 100%;
+             " />
+        </div>
+
+        <div class="nextButton"
+             id="nextButton"
+             onclick="nextCount()"
+             onmouseover="nextHoverY()"
+             onmouseout="nextHoverN()">
+
+            <img id="nextImg" src="Next2.png"
+                 style="
+            cursor: pointer;
+             bottom: -6%;
+             right: 18%;
+             position: absolute;
+             width: 60%;
+             z-index: 8;
+             " />
+
+            <script>
+                function nextCount() {
+                    var image = document.getElementById('cubeImg');
+                    if (image.src.match("cube.gif")) {
+                        image.src = "p9.jpg";
+                    }
+                    else if (image.src.match("p9.jpg")) {
+                        image.src = "travCube.gif";
+                    }
+                    else if (image.src.match("travCube.gif")) {
+                        image.src = "pe_real.jpg";
+                    }
+                    else if (image.src.match("pe_real.jpg")) {
+                        image.src = "sully_patch.png";
+                    }
+                    else if (image.src.match("sully_patch.png")) {
+                        image.src = "t_shirt3.jpg";
+                    }
+                    else if (image.src.match("t_shirt3.jpg")) {
+                        image.src = "cube.gif";
+                    }
+                }
+                function nextHoverY() {
+                    document.getElementById("nextImg").src = "Next2.gif";
+                }
+                function nextHoverN() {
+                    document.getElementById("nextImg").src = "Next2.png";
+                }
+            </script>
+
+        </div>
+
+    </div>
+
+    <div class="bio" id="bio">
+
+
+        <div class="button" id="button1"
+             style="
+            top: 13%;
+	        left: 5%;">
+
+            <a href="https://youtu.be/KUFS-zqRa58">nya!</a>
+
+        </div>
+
+        <div class="button" id="button3"
+             style="
+            top: 13%;
+	        right: 5%;">
+
+            <a href="https://soundcloud.com/peebeexd/kitty-dance-go-kitty-go-breakcore-remix"> >:3c </a>
+
+        </div>
+
+        <div class="button" id="button2"
+             style="
+            top: 13%;
+	        left: 40%;">
+
+            <a href="https://youtu.be/2MV0EqUe9sM"> Hewwo </a>
+
+        </div>
+    </div>
+
+    <div class="bio2" id="bio2">
+        <img src="SC1.gif" alt="uh_oh1"
+             class="center"
+             style="
+              z-index: 2;
+             position: relative;
+             width: 95%;
+             " />
+
+        About me!!!
+        <br />   <br />   <br />
+        // dev note copy paste in that mcelroy fanfic
+
+
+
+
+    </div>
+
+</body>
+</html>

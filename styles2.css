@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+
+.p1 {
+    z-index:4;
+  font-size: 100px;
+  font-family: Chalkduster, fantasy;
+    color: red;
+}
+.p2 {
+    z-index: -5;
+    font-size: 20px;
+    font-family: Chalkduster, fantasy;
+    color: red;
+    position: fixed;
+    left:45vw
+}
+
+p {
+    z-index: 4;
+    font-size: 25px;
+    font-family: Arial;
+    color: black;
+
+}
+
+a:link {
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: red;
+}
+
+a:visited {
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: red;
+}
+
+a:hover, a:active {
+    
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Georgia; 
+        background-color: black ;
+            color: red;
+}
+
+a.two:link, visited{ 
+
+    
+       
+}
+a.two:hover, active {
+    
+}
+

@@ -1,0 +1,115 @@
+body {
+	background-color: darkseagreen;
+	padding: 0px;
+	border-collapse: collapse;
+	margin: 0;
+	background-image: url("greenBG3.gif");
+	background-repeat: repeat;
+}
+
+.d1 {
+	z-index: 10;
+	position: absolute;
+	background-color: white;
+	height: 30vw;
+	width: 60vw;
+	top: 40px;
+	left:4vw;
+	background-image: linear-gradient(#61B531,#089c48);
+	outline-style: ridge;
+	outline-width: 2vw;
+	outline-color: #054d1d;
+}
+
+.gal {
+	z-index: 2;
+	position: relative;
+	background-color: none;
+	height: 86%;
+	width: 97%;
+	top: 1.5%;
+	left: 1.5%;
+	display: block;
+}
+
+.galFrame {
+	z-index: 2;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+	height: 34vw;
+	width: 31vw;
+	top: calc(40px - 2vw);
+	left: 67vw;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.center2 {
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.bio {
+	z-index: 2;
+	position: absolute;
+	top: calc(34vw + 40px);
+	height: 8vw;
+	width: 92vw;
+	left: 4vw;
+
+}
+
+.button {
+	z-index: 4;
+	position: absolute;
+	background-color: black;
+	color: lightgreen;
+	font-size: 4vw;
+	height: 70%;
+	width: 20%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: #089c48;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}
+.button:hover {
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration: none;
+	color: lightgreen;
+}
+a:visited {
+	text-decoration: none;
+	color: lightgreen;
+	
+}
+.bio2 {
+	z-index: 1;
+	position: absolute;
+	top: calc(45vw + 40px);
+	height: 23vw;
+	width: 92vw;
+	left: 4vw;
+	background-image: linear-gradient(#61B531,#089c48);
+	outline-style: ridge;
+	outline-width: 2vw;
+	outline-color: #054d1d;
+	font-size: 3vw;
+
+}
+
